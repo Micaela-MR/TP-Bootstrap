@@ -58,6 +58,7 @@ form input{
     width: 100%;
     line-height: 30px; 
     border: 1px solid #C4C4C4;
+    padding-left: 25px;
 }
 
 .inputs i{
@@ -69,7 +70,6 @@ form input{
 ::placeholder{
     font-family: 'Nunito Bold';
     font-size: 16px;
-    padding-left: 25px;
 }
 
 .enlace {
