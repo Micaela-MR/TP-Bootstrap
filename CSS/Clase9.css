@@ -62,13 +62,14 @@ form input{
 
 .inputs i{
     position: absolute;
-    margin-top: 20px;
+    transform: translate(40%, 85%);
     color: #6A2A83;
 }
 
 ::placeholder{
     font-family: 'Nunito Bold';
     font-size: 16px;
+    padding-left: 25px;
 }
 
 .enlace {
