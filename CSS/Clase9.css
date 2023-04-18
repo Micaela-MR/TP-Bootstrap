@@ -1,0 +1,98 @@
+body {
+    background-color: #22193F;
+    background-image: url(/HTML/ondas.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    background-position-y: bottom;
+}
+
+@font-face {
+    font-family: 'Nunito Black';
+    src: url(/CSS/fonts/static/Nunito-Black.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: 'Nunito Bold';
+    src: url(/CSS/fonts/static/Nunito-Bold.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: 'Nunito Regular';
+    src: url(/CSS/fonts/static/Nunito-Regular.ttf) format(ttf);
+}
+
+
+#contenedor {
+    background-color: white;
+    margin-top: 130px;
+    width: 60%;
+    height: auto;
+}
+
+#contenedor-login {
+    padding: 25px;
+}
+
+h1 {
+    margin-top: 10px;
+    color: #22193F;
+    font-family: 'Nunito Black';
+    font-size: 28px;
+}
+
+.text-center {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    font-family: 'Nunito black';
+    color: white;
+    font-size: 45px;
+}
+
+form input{
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 100%;
+    line-height: 30px; 
+    border: 1px solid #C4C4C4;
+}
+
+.inputs i{
+    position: absolute;
+    margin-top: 20px;
+    color: #6A2A83;
+}
+
+::placeholder{
+    font-family: 'Nunito Bold';
+    font-size: 16px;
+}
+
+.enlace {
+    text-align: right;
+}
+
+.enlace a{
+    color: #E21982;
+    font-family: 'Nunito Regular';
+    font-size: 12px;
+}
+
+button {
+    background-color: #E21982;
+    color: white;
+    width: 100%;
+    font-family: 'Nunito Bold';
+    font-size: 16px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+button:hover{
+    background-color: #22193F;
+}
